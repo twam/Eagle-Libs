@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BEAGLEBONE_CAPE">
+<wire x1="0" y1="6.35" x2="6.35" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="6.35" y1="0" x2="73.66" y2="0" width="0" layer="20"/>
+<wire x1="73.66" y1="0" x2="86.36" y2="12.7" width="0" layer="20" curve="90"/>
+<wire x1="86.36" y1="12.7" x2="86.36" y2="41.91" width="0" layer="20"/>
+<wire x1="86.36" y1="41.91" x2="73.66" y2="54.61" width="0" layer="20" curve="90"/>
+<wire x1="20.32" y1="38.735" x2="5.715" y2="38.735" width="0" layer="20"/>
+<wire x1="20.32" y1="20.955" x2="0" y2="20.955" width="0" layer="20"/>
+<wire x1="20.32" y1="20.955" x2="20.32" y2="38.735" width="0" layer="20"/>
+<wire x1="0" y1="20.955" x2="0" y2="6.35" width="0" layer="20"/>
+<wire x1="5.715" y1="54.61" x2="5.715" y2="38.735" width="0" layer="20"/>
+<wire x1="5.715" y1="54.61" x2="73.66" y2="54.61" width="0" layer="20"/>
+<pad name="P9.1" x="19.685" y="1.905" drill="1" shape="square"/>
+<pad name="P9.2" x="19.685" y="4.445" drill="1"/>
+<pad name="P9.3" x="22.225" y="1.905" drill="1"/>
+<pad name="P9.4" x="22.225" y="4.445" drill="1"/>
+<pad name="P9.5" x="24.765" y="1.905" drill="1"/>
+<pad name="P9.6" x="24.765" y="4.445" drill="1"/>
+<pad name="P9.7" x="27.305" y="1.905" drill="1"/>
+<pad name="P9.8" x="27.305" y="4.445" drill="1"/>
+<pad name="P9.9" x="29.845" y="1.905" drill="1"/>
+<pad name="P9.10" x="29.845" y="4.445" drill="1"/>
+<pad name="P9.11" x="32.385" y="1.905" drill="1"/>
+<pad name="P9.12" x="32.385" y="4.445" drill="1"/>
+<pad name="P9.13" x="34.925" y="1.905" drill="1"/>
+<pad name="P9.14" x="34.925" y="4.445" drill="1"/>
+<pad name="P9.15" x="37.465" y="1.905" drill="1"/>
+<pad name="P9.16" x="37.465" y="4.445" drill="1"/>
+<pad name="P9.17" x="40.005" y="1.905" drill="1"/>
+<pad name="P9.18" x="40.005" y="4.445" drill="1"/>
+<pad name="P9.19" x="42.545" y="1.905" drill="1"/>
+<pad name="P9.20" x="42.545" y="4.445" drill="1"/>
+<pad name="P9.21" x="45.085" y="1.905" drill="1"/>
+<pad name="P9.22" x="45.085" y="4.445" drill="1"/>
+<pad name="P9.23" x="47.625" y="1.905" drill="1"/>
+<pad name="P9.24" x="47.625" y="4.445" drill="1"/>
+<pad name="P9.25" x="50.165" y="1.905" drill="1"/>
+<pad name="P9.26" x="50.165" y="4.445" drill="1"/>
+<pad name="P9.27" x="52.705" y="1.905" drill="1"/>
+<pad name="P9.28" x="52.705" y="4.445" drill="1"/>
+<pad name="P9.29" x="55.245" y="1.905" drill="1"/>
+<pad name="P9.30" x="55.245" y="4.445" drill="1"/>
+<pad name="P9.31" x="57.785" y="1.905" drill="1"/>
+<pad name="P9.32" x="57.785" y="4.445" drill="1"/>
+<pad name="P9.33" x="60.325" y="1.905" drill="1"/>
+<pad name="P9.34" x="60.325" y="4.445" drill="1"/>
+<pad name="P9.35" x="62.865" y="1.905" drill="1"/>
+<pad name="P9.36" x="62.865" y="4.445" drill="1"/>
+<pad name="P9.37" x="65.405" y="1.905" drill="1"/>
+<pad name="P9.38" x="65.405" y="4.445" drill="1"/>
+<pad name="P9.39" x="67.945" y="1.905" drill="1"/>
+<pad name="P9.40" x="67.945" y="4.445" drill="1"/>
+<pad name="P9.41" x="70.485" y="1.905" drill="1"/>
+<pad name="P9.42" x="70.485" y="4.445" drill="1"/>
+<pad name="P9.43" x="73.025" y="1.905" drill="1"/>
+<pad name="P9.44" x="73.025" y="4.445" drill="1"/>
+<pad name="P9.45" x="75.565" y="1.905" drill="1"/>
+<pad name="P9.46" x="75.565" y="4.445" drill="1"/>
+<pad name="P8.1" x="19.685" y="50.165" drill="1" shape="square"/>
+<pad name="P8.2" x="19.685" y="52.705" drill="1"/>
+<pad name="P8.3" x="22.225" y="50.165" drill="1"/>
+<pad name="P8.4" x="22.225" y="52.705" drill="1"/>
+<pad name="P8.5" x="24.765" y="50.165" drill="1"/>
+<pad name="P8.6" x="24.765" y="52.705" drill="1"/>
+<pad name="P8.7" x="27.305" y="50.165" drill="1"/>
+<pad name="P8.8" x="27.305" y="52.705" drill="1"/>
+<pad name="P8.9" x="29.845" y="50.165" drill="1"/>
+<pad name="P8.10" x="29.845" y="52.705" drill="1"/>
+<pad name="P8.11" x="32.385" y="50.165" drill="1"/>
+<pad name="P8.12" x="32.385" y="52.705" drill="1"/>
+<pad name="P8.13" x="34.925" y="50.165" drill="1"/>
+<pad name="P8.14" x="34.925" y="52.705" drill="1"/>
+<pad name="P8.15" x="37.465" y="50.165" drill="1"/>
+<pad name="P8.16" x="37.465" y="52.705" drill="1"/>
+<pad name="P8.17" x="40.005" y="50.165" drill="1"/>
+<pad name="P8.18" x="40.005" y="52.705" drill="1"/>
+<pad name="P8.19" x="42.545" y="50.165" drill="1"/>
+<pad name="P8.20" x="42.545" y="52.705" drill="1"/>
+<pad name="P8.21" x="45.085" y="50.165" drill="1"/>
+<pad name="P8.22" x="45.085" y="52.705" drill="1"/>
+<pad name="P8.23" x="47.625" y="50.165" drill="1"/>
+<pad name="P8.24" x="47.625" y="52.705" drill="1"/>
+<pad name="P8.25" x="50.165" y="50.165" drill="1"/>
+<pad name="P8.26" x="50.165" y="52.705" drill="1"/>
+<pad name="P8.27" x="52.705" y="50.165" drill="1"/>
+<pad name="P8.28" x="52.705" y="52.705" drill="1"/>
+<pad name="P8.29" x="55.245" y="50.165" drill="1"/>
+<pad name="P8.30" x="55.245" y="52.705" drill="1"/>
+<pad name="P8.31" x="57.785" y="50.165" drill="1"/>
+<pad name="P8.32" x="57.785" y="52.705" drill="1"/>
+<pad name="P8.33" x="60.325" y="50.165" drill="1"/>
+<pad name="P8.34" x="60.325" y="52.705" drill="1"/>
+<pad name="P8.35" x="62.865" y="50.165" drill="1"/>
+<pad name="P8.36" x="62.865" y="52.705" drill="1"/>
+<pad name="P8.37" x="65.405" y="50.165" drill="1"/>
+<pad name="P8.38" x="65.405" y="52.705" drill="1"/>
+<pad name="P8.39" x="67.945" y="50.165" drill="1"/>
+<pad name="P8.40" x="67.945" y="52.705" drill="1"/>
+<pad name="P8.41" x="70.485" y="50.165" drill="1"/>
+<pad name="P8.42" x="70.485" y="52.705" drill="1"/>
+<pad name="P8.43" x="73.025" y="50.165" drill="1"/>
+<pad name="P8.44" x="73.025" y="52.705" drill="1"/>
+<pad name="P8.45" x="75.565" y="50.165" drill="1"/>
+<pad name="P8.46" x="75.565" y="52.705" drill="1"/>
+<pad name="HOLE3" x="14.605" y="51.435" drill="3.2"/>
+<pad name="HOLE1" x="14.605" y="3.175" drill="3.2"/>
+<pad name="HOLE4" x="80.645" y="48.26" drill="3.2"/>
+<pad name="HOLE2" x="80.645" y="6.35" drill="3.2"/>
+<wire x1="18.415" y1="5.715" x2="76.835" y2="5.715" width="0.3048" layer="21"/>
+<wire x1="76.835" y1="5.715" x2="76.835" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="76.835" y1="0.635" x2="18.415" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="18.415" y1="0.635" x2="18.415" y2="5.715" width="0.3048" layer="21"/>
+<wire x1="18.415" y1="53.975" x2="76.835" y2="53.975" width="0.3048" layer="21"/>
+<wire x1="76.835" y1="53.975" x2="76.835" y2="48.895" width="0.3048" layer="21"/>
+<wire x1="76.835" y1="48.895" x2="18.415" y2="48.895" width="0.3048" layer="21"/>
+<wire x1="18.415" y1="48.895" x2="18.415" y2="53.975" width="0.3048" layer="21"/>
+<text x="78.74" y="50.8" size="1.27" layer="21" rot="R90">P8</text>
+<text x="78.74" y="2.54" size="1.27" layer="21" rot="R90">P9</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BEAGLEBONE_CAPE">
+<pin name="GND" x="-33.02" y="48.26" length="middle" direction="sup"/>
+<pin name="SYS_5V" x="-33.02" y="55.88" length="middle" direction="sup"/>
+<pin name="VDD_5V" x="-33.02" y="58.42" length="middle" direction="sup"/>
+<pin name="DC_3.3V" x="-33.02" y="60.96" length="middle" direction="sup"/>
+<pin name="PWR_BUT" x="-33.02" y="40.64" length="middle" direction="in"/>
+<pin name="SYS_RESET" x="-33.02" y="38.1" length="middle" function="dot"/>
+<pin name="UART4_RXD" x="-33.02" y="-2.54" length="middle"/>
+<pin name="GPIO1_28" x="33.02" y="35.56" length="middle" rot="R180"/>
+<pin name="UART4_TXD" x="-33.02" y="-5.08" length="middle"/>
+<pin name="EHRPWM1A" x="-33.02" y="-48.26" length="middle"/>
+<pin name="GPIO1_16" x="33.02" y="40.64" length="middle" rot="R180"/>
+<pin name="EHRPWM1B" x="-33.02" y="-50.8" length="middle"/>
+<pin name="I2C1_SCL" x="-33.02" y="-10.16" length="middle"/>
+<pin name="I2C1_SDA" x="-33.02" y="-12.7" length="middle"/>
+<pin name="I2C2_SCL" x="-33.02" y="-15.24" length="middle"/>
+<pin name="I2C2_SDA" x="-33.02" y="-17.78" length="middle"/>
+<pin name="UART2_TXD" x="-33.02" y="0" length="middle"/>
+<pin name="UART2_RXD" x="-33.02" y="2.54" length="middle"/>
+<pin name="GPIO1_17" x="33.02" y="38.1" length="middle" rot="R180"/>
+<pin name="UART1_TXD" x="-33.02" y="5.08" length="middle"/>
+<pin name="GPIO3_19" x="33.02" y="27.94" length="middle" rot="R180"/>
+<pin name="SPI1_CS0" x="-33.02" y="-30.48" length="middle"/>
+<pin name="SPI1_D0" x="-33.02" y="-27.94" length="middle"/>
+<pin name="SPI1_D1" x="-33.02" y="-25.4" length="middle"/>
+<pin name="SPI1_SCLK" x="-33.02" y="-22.86" length="middle"/>
+<pin name="VADC" x="-33.02" y="53.34" length="middle" direction="sup"/>
+<pin name="AIN4" x="-33.02" y="17.78" length="middle"/>
+<pin name="AGND" x="-33.02" y="45.72" length="middle" direction="sup"/>
+<pin name="AIN6" x="-33.02" y="12.7" length="middle"/>
+<pin name="AIN5" x="-33.02" y="15.24" length="middle"/>
+<pin name="AIN2" x="-33.02" y="22.86" length="middle"/>
+<pin name="GPIO2_12/LCD_DATA6" x="33.02" y="-40.64" length="middle" rot="R180"/>
+<pin name="AIN3" x="-33.02" y="20.32" length="middle"/>
+<pin name="AIN0" x="-33.02" y="27.94" length="middle"/>
+<pin name="AIN1" x="-33.02" y="25.4" length="middle"/>
+<pin name="UART5_CTSN/LCD_DATA14" x="33.02" y="-20.32" length="middle" rot="R180"/>
+<pin name="GPIO0_7" x="33.02" y="58.42" length="middle" rot="R180"/>
+<pin name="GPIO2_23/LCD_HSYNC" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="GPIO2_25/LCD_AC_BIAS_EN" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="UART3_CTSN/LCD_DATA10" x="33.02" y="-30.48" length="middle" rot="R180"/>
+<pin name="UART4_CTSN/LCD_DATA12" x="33.02" y="-25.4" length="middle" rot="R180"/>
+<pin name="UART3_RTSN/LCD_DATA11" x="33.02" y="-27.94" length="middle" rot="R180"/>
+<pin name="UART5_RTSN/LCD_DATA15" x="33.02" y="-17.78" length="middle" rot="R180"/>
+<pin name="CLKOUT2" x="-33.02" y="33.02" length="middle"/>
+<pin name="GPIO1_6/MMC1_DAT6" x="33.02" y="12.7" length="middle" rot="R180"/>
+<pin name="GPIO1_7/MMC1_DAT7" x="33.02" y="15.24" length="middle" rot="R180"/>
+<pin name="GPIO1_2/MMC1_DAT2" x="33.02" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO1_3/MMC1_DAT3" x="33.02" y="5.08" length="middle" rot="R180"/>
+<pin name="TIMER4" x="-33.02" y="-35.56" length="middle"/>
+<pin name="TIMER5" x="-33.02" y="-38.1" length="middle"/>
+<pin name="TIMER6" x="-33.02" y="-40.64" length="middle"/>
+<pin name="TIMER7" x="-33.02" y="-43.18" length="middle"/>
+<pin name="GPIO1_13" x="33.02" y="48.26" length="middle" rot="R180"/>
+<pin name="GPIO1_12" x="33.02" y="50.8" length="middle" rot="R180"/>
+<pin name="EHRPWM2B" x="-33.02" y="-55.88" length="middle"/>
+<pin name="GPIO0_26" x="33.02" y="55.88" length="middle" rot="R180"/>
+<pin name="GPIO1_15" x="33.02" y="43.18" length="middle" rot="R180"/>
+<pin name="GPIO1_14" x="33.02" y="45.72" length="middle" rot="R180"/>
+<pin name="GPIO0_27" x="33.02" y="53.34" length="middle" rot="R180"/>
+<pin name="GPIO2_1" x="33.02" y="30.48" length="middle" rot="R180"/>
+<pin name="GPIO1_31/MMC1_CMD" x="33.02" y="17.78" length="middle" rot="R180"/>
+<pin name="EHRPWM2A" x="-33.02" y="-53.34" length="middle"/>
+<pin name="GPIO1_30/MMC1_CLK" x="33.02" y="20.32" length="middle" rot="R180"/>
+<pin name="GPIO1_5/MMC1_DAT5" x="33.02" y="10.16" length="middle" rot="R180"/>
+<pin name="GPIO1_4/MMC1_DAT4" x="33.02" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO1_0/MMC1_DAT0" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO1_1/MMC1_DAT1" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="GPIO1_29" x="33.02" y="33.02" length="middle" rot="R180"/>
+<pin name="GPIO2_22/LCD_VSYNC" x="33.02" y="-15.24" length="middle" rot="R180"/>
+<pin name="GPIO2_24/LCD_PCLCK" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="UART5_RXD/LCD_DATA9" x="33.02" y="-33.02" length="middle" rot="R180"/>
+<pin name="UART5_TXD/LCD_DATA8" x="33.02" y="-35.56" length="middle" rot="R180"/>
+<pin name="UART4_RTSN/LCD_DATA13" x="33.02" y="-22.86" length="middle" rot="R180"/>
+<pin name="GPIO2_13/LCD_DATA7" x="33.02" y="-38.1" length="middle" rot="R180"/>
+<pin name="GPIO2_10/LCD_DATA4" x="33.02" y="-45.72" length="middle" rot="R180"/>
+<pin name="GPIO2_11/LCD_DATA5" x="33.02" y="-43.18" length="middle" rot="R180"/>
+<pin name="GPIO2_8/LCD_DATA2" x="33.02" y="-50.8" length="middle" rot="R180"/>
+<pin name="GPIO2_9/LCD_DATA3" x="33.02" y="-48.26" length="middle" rot="R180"/>
+<pin name="GPIO2_6/LCD_DATA0" x="33.02" y="-55.88" length="middle" rot="R180"/>
+<pin name="GPIO2_7/LCD_DATA1" x="33.02" y="-53.34" length="middle" rot="R180"/>
+<pin name="UART1_RXD" x="-33.02" y="7.62" length="middle"/>
+<wire x1="-27.94" y1="63.5" x2="-27.94" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-58.42" x2="27.94" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-58.42" x2="27.94" y2="63.5" width="0.254" layer="94"/>
+<wire x1="27.94" y1="63.5" x2="-27.94" y2="63.5" width="0.254" layer="94"/>
+<text x="-27.94" y="-60.96" size="1.27" layer="94">&gt;NAME</text>
+<text x="27.94" y="-60.96" size="1.27" layer="94" rot="MR0">&gt;VALUE</text>
+<pin name="GPIO3_21" x="33.02" y="25.4" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BEAGLEBONE_CAPE">
+<description>Pin Header and Outlines for BeagleBone Black shield</description>
+<gates>
+<gate name="G$1" symbol="BEAGLEBONE_CAPE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BEAGLEBONE_CAPE">
+<connects>
+<connect gate="G$1" pin="AGND" pad="P9.34"/>
+<connect gate="G$1" pin="AIN0" pad="P9.39"/>
+<connect gate="G$1" pin="AIN1" pad="P9.40"/>
+<connect gate="G$1" pin="AIN2" pad="P9.37"/>
+<connect gate="G$1" pin="AIN3" pad="P9.38"/>
+<connect gate="G$1" pin="AIN4" pad="P9.33"/>
+<connect gate="G$1" pin="AIN5" pad="P9.36"/>
+<connect gate="G$1" pin="AIN6" pad="P9.35"/>
+<connect gate="G$1" pin="CLKOUT2" pad="P9.41"/>
+<connect gate="G$1" pin="DC_3.3V" pad="P9.3 P9.4"/>
+<connect gate="G$1" pin="EHRPWM1A" pad="P9.14"/>
+<connect gate="G$1" pin="EHRPWM1B" pad="P9.16"/>
+<connect gate="G$1" pin="EHRPWM2A" pad="P8.19"/>
+<connect gate="G$1" pin="EHRPWM2B" pad="P8.13"/>
+<connect gate="G$1" pin="GND" pad="P8.1 P8.2 P9.1 P9.2 P9.43 P9.44 P9.45 P9.46"/>
+<connect gate="G$1" pin="GPIO0_26" pad="P8.14"/>
+<connect gate="G$1" pin="GPIO0_27" pad="P8.17"/>
+<connect gate="G$1" pin="GPIO0_7" pad="P9.42"/>
+<connect gate="G$1" pin="GPIO1_0/MMC1_DAT0" pad="P8.25"/>
+<connect gate="G$1" pin="GPIO1_1/MMC1_DAT1" pad="P8.24"/>
+<connect gate="G$1" pin="GPIO1_12" pad="P8.12"/>
+<connect gate="G$1" pin="GPIO1_13" pad="P8.11"/>
+<connect gate="G$1" pin="GPIO1_14" pad="P8.16"/>
+<connect gate="G$1" pin="GPIO1_15" pad="P8.15"/>
+<connect gate="G$1" pin="GPIO1_16" pad="P9.15"/>
+<connect gate="G$1" pin="GPIO1_17" pad="P9.23"/>
+<connect gate="G$1" pin="GPIO1_2/MMC1_DAT2" pad="P8.5"/>
+<connect gate="G$1" pin="GPIO1_28" pad="P9.12"/>
+<connect gate="G$1" pin="GPIO1_29" pad="P8.26"/>
+<connect gate="G$1" pin="GPIO1_3/MMC1_DAT3" pad="P8.6"/>
+<connect gate="G$1" pin="GPIO1_30/MMC1_CLK" pad="P8.21"/>
+<connect gate="G$1" pin="GPIO1_31/MMC1_CMD" pad="P8.20"/>
+<connect gate="G$1" pin="GPIO1_4/MMC1_DAT4" pad="P8.23"/>
+<connect gate="G$1" pin="GPIO1_5/MMC1_DAT5" pad="P8.22"/>
+<connect gate="G$1" pin="GPIO1_6/MMC1_DAT6" pad="P8.3"/>
+<connect gate="G$1" pin="GPIO1_7/MMC1_DAT7" pad="P8.4"/>
+<connect gate="G$1" pin="GPIO2_1" pad="P8.18"/>
+<connect gate="G$1" pin="GPIO2_10/LCD_DATA4" pad="P8.41"/>
+<connect gate="G$1" pin="GPIO2_11/LCD_DATA5" pad="P8.42"/>
+<connect gate="G$1" pin="GPIO2_12/LCD_DATA6" pad="P8.39"/>
+<connect gate="G$1" pin="GPIO2_13/LCD_DATA7" pad="P8.40"/>
+<connect gate="G$1" pin="GPIO2_22/LCD_VSYNC" pad="P8.27"/>
+<connect gate="G$1" pin="GPIO2_23/LCD_HSYNC" pad="P8.29"/>
+<connect gate="G$1" pin="GPIO2_24/LCD_PCLCK" pad="P8.28"/>
+<connect gate="G$1" pin="GPIO2_25/LCD_AC_BIAS_EN" pad="P8.30"/>
+<connect gate="G$1" pin="GPIO2_6/LCD_DATA0" pad="P8.45"/>
+<connect gate="G$1" pin="GPIO2_7/LCD_DATA1" pad="P8.46"/>
+<connect gate="G$1" pin="GPIO2_8/LCD_DATA2" pad="P8.43"/>
+<connect gate="G$1" pin="GPIO2_9/LCD_DATA3" pad="P8.44"/>
+<connect gate="G$1" pin="GPIO3_19" pad="P9.27"/>
+<connect gate="G$1" pin="GPIO3_21" pad="P9.25"/>
+<connect gate="G$1" pin="I2C1_SCL" pad="P9.17"/>
+<connect gate="G$1" pin="I2C1_SDA" pad="P9.18"/>
+<connect gate="G$1" pin="I2C2_SCL" pad="P9.19"/>
+<connect gate="G$1" pin="I2C2_SDA" pad="P9.20"/>
+<connect gate="G$1" pin="PWR_BUT" pad="P9.9"/>
+<connect gate="G$1" pin="SPI1_CS0" pad="P9.28"/>
+<connect gate="G$1" pin="SPI1_D0" pad="P9.29"/>
+<connect gate="G$1" pin="SPI1_D1" pad="P9.30"/>
+<connect gate="G$1" pin="SPI1_SCLK" pad="P9.31"/>
+<connect gate="G$1" pin="SYS_5V" pad="P9.7 P9.8"/>
+<connect gate="G$1" pin="SYS_RESET" pad="P9.10"/>
+<connect gate="G$1" pin="TIMER4" pad="P8.7"/>
+<connect gate="G$1" pin="TIMER5" pad="P8.9"/>
+<connect gate="G$1" pin="TIMER6" pad="P8.10"/>
+<connect gate="G$1" pin="TIMER7" pad="P8.8"/>
+<connect gate="G$1" pin="UART1_RXD" pad="P9.26"/>
+<connect gate="G$1" pin="UART1_TXD" pad="P9.24"/>
+<connect gate="G$1" pin="UART2_RXD" pad="P9.22"/>
+<connect gate="G$1" pin="UART2_TXD" pad="P9.21"/>
+<connect gate="G$1" pin="UART3_CTSN/LCD_DATA10" pad="P8.36"/>
+<connect gate="G$1" pin="UART3_RTSN/LCD_DATA11" pad="P8.34"/>
+<connect gate="G$1" pin="UART4_CTSN/LCD_DATA12" pad="P8.35"/>
+<connect gate="G$1" pin="UART4_RTSN/LCD_DATA13" pad="P8.33"/>
+<connect gate="G$1" pin="UART4_RXD" pad="P9.11"/>
+<connect gate="G$1" pin="UART4_TXD" pad="P9.13"/>
+<connect gate="G$1" pin="UART5_CTSN/LCD_DATA14" pad="P8.31"/>
+<connect gate="G$1" pin="UART5_RTSN/LCD_DATA15" pad="P8.32"/>
+<connect gate="G$1" pin="UART5_RXD/LCD_DATA9" pad="P8.38"/>
+<connect gate="G$1" pin="UART5_TXD/LCD_DATA8" pad="P8.37"/>
+<connect gate="G$1" pin="VADC" pad="P9.32"/>
+<connect gate="G$1" pin="VDD_5V" pad="P9.5 P9.6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
